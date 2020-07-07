@@ -1,0 +1,163 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.home {
+  width: 750rpx;
+}
+.home .userBox {
+  width: 750rpx;
+  height: 600rpx;
+  background-image: url(/static/img/back.png);
+  background-size: 100% 100%;
+  margin-top: -90rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.home .userBox .user {
+  margin-top: 190rpx;
+  width: 701rpx;
+  height: 311rpx;
+  border-radius: 10rpx;
+  background-color: #dd514c;
+}
+.home .userBox .user .usertop {
+  width: 701rpx;
+  height: 65%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.home .userBox .user .usertop image {
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 50%;
+  background-color: #fff;
+  margin-left: 61rpx;
+  margin-right: 30rpx;
+}
+.home .userBox .user .usertop .usertext {
+  display: block;
+  background-color: #dd514c;
+  width: 200rpx;
+  height: 100rpx;
+}
+.home .userBox .user .usertop .usertext view {
+  width: 200rpx;
+  color: #fff;
+}
+.home .userBox .user .usertop .usertext view:nth-child(2) {
+  background-color: #dd514c;
+  font-size: 24rpx;
+  font-weight: 500;
+  margin-top: 20rpx;
+}
+.home .userBox .user .usertop .more {
+  color: #fff;
+  font-size: 24rpx;
+  margin-left: 140rpx;
+}
+.home .userBox .user .userbottom {
+  width: 701rpx;
+  height: 35%;
+  background-color: #f98077;
+  border-bottom-right-radius: 10rpx;
+  border-bottom-left-radius: 10rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.home .userBox .user .userbottom .information {
+  width: 50%;
+  height: 100%;
+}
+.home .userBox .user .userbottom .information view {
+  width: 100%;
+  height: 50%;
+  color: #fff;
+  text-align: center;
+  line-height: 100%;
+}
+.home .userBox .user .userbottom .information view:nth-child(1) {
+  margin-top: 6rpx;
+  line-height: 290%;
+  font-weight: 600;
+  font-size: 28rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.home .navBox {
+  width: 690rpx;
+  margin: 0 auto;
+  margin-top: 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.home .navBox .nav_item {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  margin: 20rpx auto;
+  width: 220rpx;
+  height: 260rpx;
+  border-radius: 20rpx;
+  background-color: #fff;
+  font-size: 40rpx;
+  font-weight: 600;
+  text-align: center;
+}
+.home .navBox .nav_item image {
+  display: block;
+  width: 66rpx;
+  height: 81rpx;
+  margin: 0 auto;
+  margin-top: 63rpx;
+}
+.home .navBox .nav_item text {
+  display: block;
+  font-size: 25rpx;
+  margin-top: 20rpx;
+}
+

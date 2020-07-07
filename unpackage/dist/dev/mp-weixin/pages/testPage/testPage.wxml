@@ -1,0 +1,1 @@
+<view><view class="title"><text class="dsc">单/多选题</text><text class="order">{{count+"/"+countTotal}}</text></view><split vue-id="77a43620-1" bind:__l="__l"></split></view>

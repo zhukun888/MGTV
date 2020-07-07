@@ -1,0 +1,73 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/login/login",
+    "pages/user/user",
+    "pages/mangde/mangde",
+    "pages/mangde/voice/voice",
+    "pages/mangde/plan/plan",
+    "pages/mangde/activity/activity",
+    "pages/mangde/plan/detail/detail",
+    "pages/mangde/activity/activitydetail/activitydetail",
+    "pages/mangde/activity/activitydetail/sign",
+    "pages/user/userActivity/userActivity",
+    "pages/user/userActivity/Vote/Vote",
+    "pages/user/usersystem/usersystem",
+    "pages/user/usersystem/committee",
+    "pages/user/usersystem/totalparty",
+    "pages/user/selfinformation",
+    "pages/mangde/voice/voicedetail",
+    "pages/mangde/voice/voicecomment",
+    "pages/user/usermarks/usermarks",
+    "pages/user/marksdetail/marksdetail",
+    "pages/user/userActivity/Vote/votedetail",
+    "pages/mangde/votelist/votelist",
+    "pages/user/usersystem/partybranch",
+    "pages/login/userlogin",
+    "pages/fengvote/fengvote",
+    "pages/fengvote/fenglist",
+    "pages/lovingstudy/lovingstudy",
+    "pages/testPage/testPage"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#fbf9fe"
+  },
+  "tabBar": {
+    "color": "#7a7e83",
+    "selectedColor": "#dd514c",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "text": "首页",
+        "iconPath": "static/img/index.png",
+        "selectedIconPath": "static/img/indexed.png"
+      },
+      {
+        "pagePath": "pages/mangde/mangde",
+        "text": "芒得一P",
+        "iconPath": "static/img/read.png",
+        "selectedIconPath": "static/img/reading.png"
+      },
+      {
+        "pagePath": "pages/lovingstudy/lovingstudy",
+        "text": "超爱学",
+        "iconPath": "static/img/study.png",
+        "selectedIconPath": "static/img/studyed.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "M星人",
+        "iconPath": "static/img/find.png",
+        "selectedIconPath": "static/img/finded.png"
+      }
+    ]
+  },
+  "uniStatistics": {
+    "enable": false
+  },
+  "usingComponents": {}
+}

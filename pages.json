@@ -1,0 +1,231 @@
+{
+    "pages": [ //pages数组中第一项表示应用启动页,
+        {
+            "path": "pages/main/main",
+            "style": {
+                "navigationBarTitleText": "首页",
+                "enablePullDownRefresh": true
+            }
+        }, {
+            "path": "pages/login/login",
+            "style": {
+                "navigationBarTitleText": "用户登录"
+            }
+        }, {
+            "path": "pages/user/user",
+            "style": {
+                "navigationBarTitleText": "M星人"
+            }
+        }, {
+            "path": "pages/mangde/mangde",
+            "style": {
+                "navigationBarTitleText": "芒得一P"
+            }
+        }, {
+            "path": "pages/mangde/voice/voice",
+            "style": {
+                "navigationBarTitleText": "芒之声",
+                "enablePullDownRefresh": true
+            }
+        }, {
+            "path": "pages/mangde/plan/plan",
+            "style": {
+                "navigationBarTitleText": "锋芒计划",
+                "enablePullDownRefresh": true
+            }
+        }, {
+            "path": "pages/mangde/activity/activity",
+            "style": {
+                "navigationBarTitleText": "芒活动",
+                "enablePullDownRefresh": true
+            }
+        }, {
+            "path": "pages/mangde/plan/detail/detail",
+            "style": {
+                "navigationBarTitleText": "人物详情"
+            }
+        }, {
+            "path": "pages/mangde/activity/activitydetail/activitydetail",
+            "style": {
+                "navigationBarTitleText": "活动详情"
+            }
+        }, {
+            "path": "pages/mangde/activity/activitydetail/sign",
+            "style": {
+                "navigationBarTitleText": "提交报名信息"
+            }
+        }, {
+            "path": "pages/user/userActivity/userActivity",
+            "style": {
+                "navigationBarTitleText": "我的活动"
+            }
+        }, {
+            "path": "pages/user/userActivity/Vote/Vote",
+            "style": {
+                "navigationBarTitleText": "我的投票"
+            }
+        }
+
+        , {
+            "path": "pages/user/usersystem/usersystem",
+            "style": {
+                "navigationBarTitleText": "我的组织"
+            }
+        }, {
+            "path": "pages/user/usersystem/committee",
+            "style": {
+                "navigationBarTitleText": "我的组织"
+            }
+        }, {
+            "path": "pages/user/usersystem/totalparty",
+            "style": {
+                "navigationBarTitleText": "我的组织"
+            }
+        }, {
+            "path": "pages/user/selfinformation",
+            "style": {
+                "navigationBarTitleText": "个人信息"
+            }
+        }, {
+            "path": "pages/mangde/voice/voicedetail",
+            "style": {
+                "navigationBarTitleText": "芒之声"
+            }
+        }, {
+            "path": "pages/mangde/voice/voicecomment",
+            "style": {
+                "navigationBarTitleText": "我要评论"
+            }
+        }, {
+            "path": "pages/user/usermarks/usermarks",
+            "style": {
+                "navigationBarTitleText": "我的积分"
+            }
+        }, {
+            "path": "pages/user/marksdetail/marksdetail",
+            "style": {
+                "navigationBarTitleText": "积分明细"
+            }
+        }, {
+            "path": "pages/user/userActivity/Vote/votedetail",
+            "style": {
+                "navigationBarTitleText": "投票详情"
+            }
+        }, {
+            "path": "pages/mangde/votelist/votelist",
+            "style": {
+                "navigationBarTitleText": "我要投票"
+            }
+        }, {
+            "path": "pages/user/usersystem/partybranch",
+            "style": {
+                "navigationBarTitleText": "我的组织"
+            }
+        }, {
+            "path": "pages/login/userlogin",
+            "style": {
+                "navigationBarTitleText": "用户登录"
+            }
+        }, {
+            "path": "pages/fengvote/fengvote",
+            "style": {
+                "navigationBarTitleText": "锋芒投票"
+            }
+        }, {
+            "path": "pages/fengvote/fenglist",
+            "style": {
+                "navigationBarTitleText": "锋芒投票"
+            }
+        },{
+            "path":"pages/lovingstudy/lovingstudy",
+            "style":{
+                "navigationBarTitleText":"超爱学"
+            }
+        },
+        {
+            "path":"pages/testPage/testPage",
+            "style":{
+                "navigationBarTitleText":"知识答题"
+            }
+        },
+        {
+            "path":"pages/testPage/commit",
+            "style":{
+                "navigationBarTitleText":"知识答题"
+            }
+        },
+        {
+          "path":"pages/testPage/challenge",
+           "style":{
+               "navigationBarTitleText":"发起挑战"
+           }
+        },
+        {
+            "path":"pages/lovingstudy/textReading",
+            "style":{
+                "navigationBarTitleText":"文章详情"
+            }
+        },
+        {
+            "path":"pages/lovingstudy/bookRecomend",
+            "style":{
+                "navigationBarTitleText":"推荐详情"
+            }
+        },
+        {
+            "path":"pages/mangde/sanhui/three",
+            "style":{
+                "navigationBarTitleText":"三会一课"
+            }
+        },
+        {
+            "path":"pages/mangde/sanhui/sanhuidetail",
+            "style":{
+                "navigationBarTitleText":"三会一课"
+            }
+        },
+        {
+            "path":"pages/mangde/sanhui/sanhuipeople",
+            "style":{
+                "navigationBarTitleText":"与会人员详情"
+            }
+        }
+        
+    ],
+    "tabBar": {
+        "color": "#7a7e83",
+        "selectedColor": "#dd514c",
+        "backgroundColor":"#ffffff",
+        "list": [{
+                "pagePath": "pages/main/main",
+                "text": "首页",
+                "iconPath": "static/img/index.png",
+                "selectedIconPath": "static/img/indexed.png"
+            },
+            {
+                "pagePath": "pages/mangde/mangde",
+                "text": "芒得一P",
+                "iconPath": "static/img/read.png",
+                "selectedIconPath": "static/img/reading.png"
+            },
+            {
+                "pagePath": "pages/lovingstudy/lovingstudy",
+                "text": "超爱学",
+                "iconPath": "static/img/study.png",
+                "selectedIconPath": "static/img/studyed.png"
+            },
+            
+            {
+                "pagePath": "pages/user/user",
+                "text": "M星人",
+                "iconPath": "static/img/find.png",
+                "selectedIconPath": "static/img/finded.png"
+            }
+        ]
+    },
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationBarBackgroundColor": "#fff",
+        "backgroundColor": "#fbf9fe"
+    }
+}

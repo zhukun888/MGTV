@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "超爱学",
+  "usingComponents": {
+    "split": "/components/study/split",
+    "guide": "/components/study/guide",
+    "direction": "/components/study/direction",
+    "compsition": "/components/study/compsition",
+    "book": "/components/study/book"
+  }
+}

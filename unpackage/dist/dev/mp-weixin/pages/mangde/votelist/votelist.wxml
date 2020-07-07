@@ -1,0 +1,1 @@
+<view class="home"><image src="../../../static/img/votelist.jpeg" mode="aspectFit"></image><myvote vue-id="586f0102-1" vote="{{vote}}" bind:__l="__l"></myvote></view>

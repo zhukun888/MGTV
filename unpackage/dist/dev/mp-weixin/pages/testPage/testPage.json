@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "知识答题",
+  "usingComponents": {
+    "split": "/components/study/split"
+  }
+}

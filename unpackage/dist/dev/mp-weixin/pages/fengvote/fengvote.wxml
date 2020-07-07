@@ -1,0 +1,1 @@
+<view class="home"><image src="../../static/img/vote.png" mode="aspectFit"></image><view data-event-opts="{{[['tap',[['vote',['$event']]]]]}}" class="vote" bindtap="__e">去投票</view></view>

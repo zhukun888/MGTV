@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "我要投票",
+  "usingComponents": {
+    "myvote": "/components/myvote"
+  }
+}
